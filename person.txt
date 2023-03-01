@@ -1,3 +1,4 @@
 First_name : Yaroslav
 Last_name : Kovalev
 Age : 26
+Device_3 : iPhone 11

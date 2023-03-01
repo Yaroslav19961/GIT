@@ -1,6 +1,6 @@
 First_name : Yaroslav
 Last_name : Kovalev
-Age : 2
+Age : 26
 City : Moscow
 Device_1 : iPhone 6S
 Device_2 : Xiaomi redmi note 10 pro

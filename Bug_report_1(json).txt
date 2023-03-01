@@ -50,7 +50,7 @@ git status
 git add Bug_Report_1.json
 
 Создаем комит
-git comit -m "Bug_Reporrt_1"
+git commit -m "Bug_Reporrt_1"
 
 Загружаем файл на внешний репозиторий 
 git push

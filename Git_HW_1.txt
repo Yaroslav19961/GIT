@@ -1,0 +1,184 @@
+Создать внешний репозиторий c названием JSON.
+Клонировать репозиторий JSON на локальный компьютер
+
+	Git clone "https://github.com/Yaroslav19961/JSON.git"
+
+ Внутри локального JSON создать файл "person.json"
+
+	touch person.json
+
+Добавить файл под гит
+	
+	git add .
+	
+Закоммитить файл
+
+	git commit -m person	
+
+Отправить файл на внешний GitHub репозиторий
+	
+	git push
+
+Отредактировать содержание файла "person.json" - написать информацию о себе.Всё написать в формате JSON
+	vim person.json
+	 {
+	 "First_name": "Yaroslav",
+	 "Last_name": "Kovalev",
+	 "Age": 26,
+	 "Devices": {
+		"Mobile": {
+			"Device_1": "iPhone 6s",
+			"Device_2": "Xiaomi redmi note 10 pro",
+			"Device_3": "iPhone 11"
+			},
+		"Laptop":{
+			"Device_1":"ASUS ZenBook 14 AMD Ryzen 5 3500U 8GB RAM"
+			}	
+		  }
+          }
+
+Отправить изменения на внешний репозиторий.
+
+	git commit -am merge
+	git push
+
+
+Создать файл "preferences.json"
+
+	touch preferences.json
+
+В файл "preferences.json" добавить информацию о своих предпочтениях в формате JSON.
+
+	vim preferences.json
+	 {
+         "Favourite movie": "Forrest Gump",
+         "Favourite TV series": "The Office",
+         "Favourite food": "SHAWUHA",
+         "Country for visit": "Niderland"
+         }
+
+Создать файл "skills.json" добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+
+	touch skills.json
+	vim skills.json
+	 {
+           "Skills": "Terminal linux"
+	             "Git"
+	             "Client server"
+	             "SQL"
+	             "Postman"
+	             "Mobile Tessting"
+
+	 }
+
+Отправить сразу 2 файла на внешний репозиторий
+
+	git add .
+	git commit -m HW
+	git push
+
+На веб интерфейсе создать файл "bug_report.json"
+Сделать Commit changes (сохранить) изменения на веб интерфейсе
+На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON
+Сделать Commit changes (сохранить) изменения на веб интерфейсе
+Синхронизировать внешний и локальный репозиторий JSON	
+	
+	git pull
+
+
+Создать внешний репозиторий c названием XML 
+Клонировать репозиторий XML на локальный компьютер
+
+	git clone "https://github.com/Yaroslav19961/XML.git"
+
+Внутри локального XML создать файл "person.xml"
+
+	touch person.xml
+
+Добавить файл под гит
+
+	git add person.xml
+
+Закоммитить файл
+ 
+	git commit -m info
+
+Отправить файл на внешний GitHub репозиторий
+
+	git push
+
+
+Отредактировать содержание файла "person.xml" - написать информацию о себе.Всё написать в формате XML
+
+	vim person.xml
+          <info>
+ 		<First_name>Yaroslav</First_name>
+ 		<Last_name>Kovalev</Last_name>
+ 		<Age>26</Age>
+		<Devices>
+         		<Mobile>
+                 		<Device_1>iPhone_6s</Device_1>
+                 		<Device_2>Xiaomi_redmi_note_10_pro</Device_2>
+                 		<Device_3>iPhone_11</Device_3>
+         		</Mobile>
+         		<Laptop>
+                 		<Device_1>ASUS_ZenBook_14_AMD_Ryzen_5_3500U_8GB_RAM</Device_1>
+         		</Laptop>
+ 		</Devices>
+	  </info>
+
+
+
+Отправить изменения на внешний репозиторий
+	
+	git commit -am info
+	git push
+
+Создать файл "preferences.xml"
+
+	touch preferences.xml
+
+В файл "preferences.xml" добавить информацию о своих предпочтениях в формате XML
+
+	vim preferences.xml
+	<info>
+        	<Favourite_movie>Forrest_Gump</Favourite_movie>
+        	<Favourite_TV_series>The_Office</Favourite_TV_series>
+        	<Favourite_food>SHAWUHA</Favourite_food>
+        	<Country_for_visit>Niderlad</Country_for_visit>
+	</info>
+
+Создать файл "sklls.xml" добавить информацию о скиллах которые будут изучены на курсе в формате XML
+
+	touch skills.xml
+	vim skills.xml
+	<Skills>Terminal_linux,Git,Client_server,SQL,Postman,Mobile_Testing</Skills>
+
+Сделать коммит в одну строку
+
+	git add . && git commit -m HW
+
+Отправить сразу 2 файла на внешний репозиторий
+
+	git push
+
+На веб интерфейсе создать файл bug_report.xml
+Сделать Commit changes (сохранить) изменения на веб интерфейсе
+На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML	
+Сделать Commit changes (сохранить) изменения на веб интерфейсе
+Синхронизировать внешний и локальный репозиторий XML
+
+	git pull
+
+
+
+
+
+
+
+
+
+
+
+
+

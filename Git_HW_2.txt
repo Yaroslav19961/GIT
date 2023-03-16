@@ -1,0 +1,82 @@
+На локальном репозитории сделать ветки для:
+- Postman
+- Jmeter
+- CheckLists
+- Bug Reports
+- SQL
+- Charles
+- Mobile testing
+
+	git branche Postman
+	git branch Jmeter
+	git branch CheckLists
+	git branch Bug_Reports
+	git branch SQL
+	git branch Charles
+	git branch Mobile_testing
+
+Запушить все ветки на внешний репозиторий
+
+	git push origin Postman
+	git push origin Jmeter
+	git push origin CheckLists
+	git push origin Bug_Reports
+	git push origin SQL
+	git push origin	Charles
+	git push origin Mobile_testing
+
+В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+
+	git checkout Bug_Reports
+	cat > 
+ID: 1
+Title: The application does not have a "Privacy Policy" section
+Precondition: Application is installed
+Steps: 1.Launch app
+       2.Tap "About the app" section
+A.R.: "Privacy Policy" section is not present
+E.R.: "Privacy Policy" section is present
+Attachment: LINK
+Author: @yKovalevy
+Enviroment: Xiaomi Redmi note 10 pro OC: Android 12
+	ctrl+c
+
+Запушить структуру багрепорта на внешний репозиторий
+	
+	git add .
+	git commit -m HW
+	git push origin Bug_Reports
+
+Вмержить ветку Bag Reports в Main
+
+	git checkout main
+	git merge Bug_Reports
+
+Запушить main на внешний репозиторий
+
+	git push
+
+В ветке CheckLists набросать структуру чек листа
+	
+	git checkout CheckLists
+	cat > checklist.txt
+ID: 2
+Title: Installing ****** app
+ER: **** app is installed
+Result: Passed
+Bug links: null
+	ctrl+c
+
+Запушить структуру на внешний репозиторий
+
+	git add .
+	git commit -m HW
+	git push origin CheckLists
+
+На внешнем репозитории сделать Pull Request ветки CheckLists в main
+Синхронизировать Внешнюю и Локальную ветки Main
+	
+
+
+
+

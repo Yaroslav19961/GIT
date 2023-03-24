@@ -1,10 +1,11 @@
-ID: 1
-Title: The application does not have a ""[DPrivacy Police[A[A[B[B" section
-Precondition: Application is installed
-Steps: 1.Launch app
-	[D2.Tap ""[DAbout the app"[ section
 
-[A[A[BA.R.: ""Privacy Policy"[D[D[D[D[D[D[D[D[D[D[D[D[D[D[[[C[[C[C[C[C[C[C[C[C[C[C[C[C "Privacy Policy"[A[C[A[C[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[y[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[B[B[B[B[A[D[D section is present
-E.R.: ""[DPrivacy Policy"[A[B[B[A[C[C[C[C[C[C[C[C[C[C[C not present[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dsection is present
+ID: 1
+Title: The application does not have a ""Privacy Police" section
+Precondition: Application is installed
+Steps: 	1.Launch app
+  	2.Tap [DAbout the app] section
+
+A.R.: "Privacy Policy" section is present
+E.R.: "Privacy Policy" section is not present
 Attachment: LINK
 Author: @yKovalevy

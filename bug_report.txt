@@ -1,4 +1,3 @@
-
 ID: 1
 Title: The application does not have a ""Privacy Police" section
 Precondition: Application is installed

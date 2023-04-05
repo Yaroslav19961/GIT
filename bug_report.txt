@@ -1,0 +1,10 @@
+ID: 1
+Title: The application does not have a ""Privacy Police" section
+Precondition: Application is installed
+Steps: 	1.Launch app
+  	2.Tap [DAbout the app] section
+
+A.R.: "Privacy Policy" section is present
+E.R.: "Privacy Policy" section is not present
+Attachment: LINK
+Author: @yKovalevy
